@@ -1,49 +1,50 @@
+[Polish / Polski](./README-PL.md)
+
 # 2137exe
 
-Łopatologicznie napisany wajrus (konkretnie trojan) nawiązujący do memów z JP2.
+Poorly made vairus (a trojan actually) referring to JP2 memes.
 
-Zmienia tapetę i puszcza muzykę w kółko.
+It changes the wallpaper and plays a song in a loop.
 
-## 🔽 Pobieranie
+## 🔽 Download
 
-Release [tutaj](https://github.com/henior2/2137exe/releases/latest)
+Release [here](https://github.com/henior2/2137exe/releases/latest)
 
-## 🧱 Budowanie
+## 🧱 Build
 
-Trzeba znaleźć jakieś narzędzia do tego, póki co używałem `iexpress`, jednak ma problem z wykrywalnością (MS Defender go wykrywa jeśli ochrona w czasie rzeczywistym jest włączona).
+I need to find a better tool for building than `iexpress` which i use right now, mostly because it has a high chance of getting detected by MS Defender.
 
-Najpierw jednak trzeba odpalić `build_deps.bat`, który skopiuje `wscript` (interpreter VBS, możliwe że w późniejszych wersjach nie będzie wymagany) do folderu `src/`.
+In order to build it, first you need to run `build_deps.bat`. This will copy `wscript` (the VBS interpreter, soon it might not be needed anymore) to the `src/` directory.
 
-Jeśli chcemy po prostu uruchomić wirusa (przetestować czy coś), wystarczy uruchomić `src/install.vbs`.
+If you just want to run the virus (to test of something) you can just run `src/install.vbs`.
 
-Jeśli chcemy zrobić binarkę (`2137.exe`), musimy użyć właśnie `iexpress`.
+If you want to make the binary `2137.exe` on your own, you need to use `iexpress` as mentioned before.
 
-[Ułomna nstrukcja tego procesu](.readme/instrukcja.png)
+[Here's some crappy instructions i made, but it's in polish, i might translate it soon](.readme/instrukcja.png)
 
-Potem najlepiej wywalić ikonkę i jakieś metadane używając [Resource Hakjera](http://www.angusj.com/resourcehacker/)
+After building, it would be good to delete the icon and some metadata using [Resource Hacker](http://www.angusj.com/resourcehacker/).
 
-## 📂 Struktura projektu czy coś
+## 📂 Project structure or something
 
 ```
 2137exe
     |- .readme
         |- instrukcja.png
-    |- lib - do zajumania
+    |- lib - steal it
         |- sound.vbs
-        |- wallpaper.vbs (czasami nie działa)
-    |- src - domyśl się
-        |- install.vbs - skrypt instalacyjny wajrusa
-        |- 2137.vbs - główny skrypt wajrusa, odpalany po instalacji
-        |- wall.vbs - chodzący w tle zmieniacz tapety
-        |- papaj.png - tapeta
-        |- barka.wav - puszczana w kółko na max głośność
-    |- build_deps.bat - daje reszte rzeczy do src/
+        |- wallpaper.vbs (sometimes doesn't work)
+    |- src - it is what you think it is
+        |- install.vbs - virus installation script
+        |- 2137.vbs - main virus script, launched after installation
+        |- wall.vbs - wallpaper changer working in background
+        |- papaj.png - wallpaper
+        |- barka.wav - played in a loop at max volume
+    |- build_deps.bat - adds the rest of deps into src/
     |- README.md
     |- LICENSE
     |- .gitignore
 ```
 
+## 📝 To do
 
-## 📝 Do zrobienia
-
-- [ ] Przepisać `install` w jakimś języku kompilowanym np Go
+- [ ] Rewrite `install` in some compiled language like Go
