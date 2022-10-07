@@ -26,21 +26,21 @@ Potem najlepiej wywalić ikonkę i jakieś metadane używając [Resource Hakjera
 
 ```
 2137exe
-	|- .readme
-		|- instrukcja.png
-	|- lib - do zajumania
-		|- sound.vbs
-		|- wallpaper.vbs (czasami nie działa)
-	|- src - domyśl się
-		|- install.vbs - skrypt instalacyjny wajrusa
-		|- 2137.vbs - główny skrypt wajrusa, odpalany po instalacji
-		|- wall.vbs - chodzący w tle zmieniacz tapety
-		|- papaj.png - tapeta
-		|- barka.wav - puszczana w kółko na max głośność
-	|- build_deps.bat - daje reszte rzeczy do src/
-	|- README.md
-	|- LICENSE
-	|- .gitignore
+    |- .readme
+        |- instrukcja.png
+    |- lib - do zajumania
+        |- sound.vbs
+        |- wallpaper.vbs (czasami nie działa)
+    |- src - domyśl się
+        |- install.vbs - skrypt instalacyjny wajrusa
+        |- 2137.vbs - główny skrypt wajrusa, odpalany po instalacji
+        |- wall.vbs - chodzący w tle zmieniacz tapety
+        |- papaj.png - tapeta
+        |- barka.wav - puszczana w kółko na max głośność
+    |- build_deps.bat - daje reszte rzeczy do src/
+    |- README.md
+    |- LICENSE
+    |- .gitignore
 ```
 
 
