@@ -33,6 +33,7 @@ Jeśli chcemy zrobić binarkę (`2137.exe`), musimy użyć właśnie `iexpress`.
 		|- barka.wav - puszczana w kółko na max głośność
 	|- build_deps.bat - daje reszte rzeczy do src/
 	|- README.md
+	|- LICENSE
 	|- .gitignore
 ```
 
