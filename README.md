@@ -4,6 +4,10 @@
 
 Zmienia tapetę i puszcza muzykę w kółko.
 
+## 🔽 Pobieranie
+
+Release [tutaj](https://github.com/henior2/2137exe/releases/latest)
+
 ## 🧱 Budowanie
 
 Trzeba znaleźć jakieś narzędzia do tego, póki co używałem `iexpress`, jednak ma problem z wykrywalnością (MS Defender go wykrywa jeśli ochrona w czasie rzeczywistym jest włączona).
@@ -15,6 +19,8 @@ Jeśli chcemy po prostu uruchomić wirusa (przetestować czy coś), wystarczy ur
 Jeśli chcemy zrobić binarkę (`2137.exe`), musimy użyć właśnie `iexpress`.
 
 [Ułomna nstrukcja tego procesu](.readme/instrukcja.png)
+
+Potem najlepiej wywalić ikonkę i jakieś metadane używając [Resource Hakjera](http://www.angusj.com/resourcehacker/)
 
 ## 📂 Struktura projektu czy coś
 
