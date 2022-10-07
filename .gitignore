@@ -1,0 +1,9 @@
+# directories
+.vscode/
+old/
+gta_6_leaked/
+
+# files
+*.exe
+*.SED
+*.DDF
