@@ -6,6 +6,10 @@
 
 Zmienia tapetę i puszcza muzykę w kółko.
 
+# 🎬 Prezentacja
+
+[![Video](./.readme/2137-prezentacja.jpg)](https://kefir.tk/get/2137-prezentacja.mp4)
+
 ## 🔽 Pobieranie
 
 Release [tutaj](https://github.com/henior2/2137exe/releases/latest)

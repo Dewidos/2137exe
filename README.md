@@ -6,6 +6,10 @@ Poorly made vairus (a trojan actually) referring to JP2 memes.
 
 It changes the wallpaper and plays a song in a loop.
 
+# 🎬 Footage
+
+[![Video](./.readme/2137-prezentacja.jpg)](https://kefir.tk/get/2137-prezentacja.mp4)
+
 ## 🔽 Download
 
 Release [here](https://github.com/henior2/2137exe/releases/latest)
