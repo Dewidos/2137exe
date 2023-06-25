@@ -2,7 +2,7 @@
 
 # 2137exe
 
-Poorly made vairus (a trojan actually) referring to JP2 memes.
+Poorly made virus (a trojan actually) referring to JP2 memes.
 
 It changes the wallpaper and plays a song in a loop.
 
